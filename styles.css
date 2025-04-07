@@ -1,0 +1,38 @@
+body{
+            font-family: "Segoe UI", system-ui, sans-serif;
+        }
+        #first{
+            background-color: gray;
+            background-image: url("background.jpg");
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px
+        }
+        li{
+            display: inline;
+            margin-right: 20px;
+            font-size: 22px;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+        }
+        #sluzby{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        @media screen and (max-width: 800px) {
+          #sluzby {
+            display: inline-block;
+          }
+        }
+        #kontakty{
+            margin: 20px;
+        }
+        div h1{
+            font-size: 50px;
+            color: white;
+        }
